@@ -1,0 +1,4 @@
+WebDriver driver = new ChromeDriver();
+explain me this above line
+how do you open a browser
+does selenium work on desktop app
