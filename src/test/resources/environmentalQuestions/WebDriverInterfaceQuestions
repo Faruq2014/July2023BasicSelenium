@@ -2,3 +2,17 @@ WebDriver driver = new ChromeDriver();
 explain me this above line
 how do you open a browser
 does selenium work on desktop app
+how do you maximize window?
+what is implicitlyWait
+how it works
+which method it is implementing on==find element method
+what is duration of time==Java time--we are limiting the time
+how long is industry standard=12
+what is navigate method
+what is the difference between navigate and get and which one you prefer, why
+what is page load time out
+what is navigate forward
+what is navigate backward 
+how do you refresh a page 
+
+

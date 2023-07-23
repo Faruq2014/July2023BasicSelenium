@@ -25,14 +25,13 @@ public class LoginTest {
 		driver.get("https://www.facebook.com/");
 	}
 	
-	@Test
+	@Test(priority=1)
 	public void loginTest() {
 		driver.findElement(By.id("email")).sendKeys("sujr234@hmail.com");
 		driver.findElement(By.id("pass")).sendKeys("suman123");
 		driver.findElement(By.name("login")).click();
 		
 	}
-	
 	
 	@AfterTest
   public void closeApplication() {
