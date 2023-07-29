@@ -1,0 +1,31 @@
+what is the super class of selenium
+how many methods are in Search Context
+what is find element method
+what is find elements method
+what is the difference between find element and find elements method
+what is web element
+Can you list few Web Elements
+what is a html tag
+what is html attributes
+what is direct locators
+what is indirect/referencial locators
+what is compound locator
+what is the best locator=Id
+what is link text, explain it.
+if you have more than one locators, what happen, will it fail
+if you have a wrong locator what will happen
+
+wrong locators
+
+NoSuchElementException
+
+//element is block // element is dead// element is not working
+ElementNotVisibleException
+//mis match tag functions 
+
+
+StaleElementReferenceException
+element is dead, element is broken
+
+
+

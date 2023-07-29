@@ -35,7 +35,7 @@ public class LoginTest {
 	
 	@AfterTest
   public void closeApplication() {
-	driver.quit();
+	//driver.quit();
 }
 	
 	
