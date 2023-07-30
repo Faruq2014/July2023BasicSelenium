@@ -26,6 +26,7 @@ ElementNotVisibleException
 
 StaleElementReferenceException
 element is dead, element is broken
+what is node
 
 
 

@@ -11,6 +11,8 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class ListOfElements {
+	
+	
 	WebDriver driver;
 	
 	@BeforeMethod
@@ -22,25 +24,27 @@ public class ListOfElements {
 		
 	}
 	@Test
-	public void findElements() {
+	public void findElementsWithEnhenceLoop() {
+		
 		WebElement ParentPageLink = driver.findElement(By.id("pageFooterChildren"));
 
 		WebElement childLink = ParentPageLink.findElement(By.tagName("ul"));
 
 	   List<WebElement> grandChild = childLink.findElements(By.tagName("li"));
-		System.out.println(grandChild.size());
+	   int totalLinks=grandChild.size();
+	   System.out.println(totalLinks);
+	   
+	   //enhance loop
+		for (WebElement webElement : grandChild) {
+			System.out.println(webElement.getText());			
+		}
 		
+		for (WebElement webElement : grandChild) {			
+			if(webElement.getText().equalsIgnoreCase("GamEs")) {
+				webElement.click();
+			}
+		}
 		
-		
-		
-		
-		
-		
-		int a[]= {1,2 ,3};
-		int b =1;
-		int b1 =2;
-		int b2 =3;
-		String pl[]= {"signin ","massenger","post"};
 		
 	}
 
